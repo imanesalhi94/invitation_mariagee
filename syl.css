@@ -1,0 +1,212 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+   
+  
+    
+   
+}
+
+.invitation {
+    background-color: #a96656;
+}
+
+.couple-photo {
+    margin-top: 20px;
+}
+
+.couple-photo img {
+    max-width: 100%;
+}
+
+#img {
+    font-size:large;
+    width: 100%;
+   height: 1100px;
+   margin-right: 100px;
+}
+
+p {
+    color: #555555;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #c7b557;
+}
+
+span {
+    color: #c7b557;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+#d {
+    background-color: #d1b83e;
+    
+    font-size: 30px;
+    /* padding: 30px; */
+    height: 500px;
+}
+
+.nom {
+    font-family: cursive;
+    font-weight: bold;
+  
+}
+.nomm{
+    font-family: cursive;
+    font-weight: bold;
+    color: green; 
+}
+
+footer {
+    background-color: #e1ded1;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+em {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #7c7119;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#message,
+#form {
+    flex: 1;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+#m {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pp {
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+form {
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: #7c7119;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+button {
+    background-color: #ff5733;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+@media (max-width: 770px) {
+    
+    #d {
+        font-size: 20px;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+.couple-photo img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+em {
+    margin-left: 0; 
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column; 
+        align-content: center;
+    }
+    #img {
+        font-size: 1000px;
+        max-width: 100%;
+       height: 600px;
+    }
+    #d {
+        
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    .couple-photo img {
+       
+        margin-bottom: 20px; /* Ajoutez un espace entre la photo du couple et le texte */
+    }
+
+    p {
+        padding: 10px;
+    }
+    #d p{
+        padding: 0;
+    }
+    
+   
+
+    em {
+        margin-left: 0; 
+    }
+
+    #message, #form {
+        max-width: 80%; 
+    }
+}
+

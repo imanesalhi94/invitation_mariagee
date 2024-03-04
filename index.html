@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation de Mariage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="syl.css">
+
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4">
+    <div class="couple-photo">
+        <img src="image0.jpeg" alt="Photo du couple">
+    </div>
+   <div id="d"> 
+    <p  class="nom">Merveille</p>
+    <p>&</p>
+    <p class="nom" >Brice</p>
+    <p class="nom">13.04.2024</p>
+   </div>
+</div>
+<div class="col-md-8" class="invitation">
+    
+    
+     <P class="pp">
+        <img src="Capture d’écran 2024-03-04 à 15.23.07.png" alt="Photo" id="img"> 
+    </P>
+
+</div>
+        </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div id="message">
+                    <h3>Un message spécial du couple</h3> 
+                    <p id="m">Chers amis et famille, <br><br>Nous espérons que vous allez bien. Nous voulions vous rappeler notre mariage qui aura lieu le 13 avril 2024. Nous sommes très impatients 
+                        de célébrer ce moment spécial avec vous.
+                        <br><br>
+
+                        Nous avons également besoin de votre aide pour bien organiser cette journée. Pourriez-vous s'il vous plaît confirmer votre présence avant le 1er avril 2024? Cela nous aiderait énormément dans les préparatifs.<br><br>
+                        Nous avons hâte de partager ce jour avec vous et de créer de beaux souvenirs ensemble.<br><br>
+
+ 
+                        Avec toute notre affection,<br><br>  <br><br> <em>Merveille et Brice</em></p>
+                        
+                </div>
+                
+                <div id="form">
+                    <form action="confirmation.php" method="post">
+                        <label for="name">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+    
+                        <label for="prenom">Prénom :</label>
+                        <input type="test" id="prenom" name="prenom" required>
+    
+                        <label for="confirmation">Je confirme ma présence :</label>
+                        <input id="confirmation" name="confirmation" required placeholder="Confirmation ici ">
+                        <button type="submit" >Confirmer</button>
+                    </form>
+                </div>
+            </div>
+                
+            
+        </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("G_5nYQ41AtuFcXF8D");
+})();
+</script>
+</body>
+
+</html>
